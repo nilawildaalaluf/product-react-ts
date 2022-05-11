@@ -47,7 +47,7 @@ const List = () => {
                 </Typography>
               </Grid>
               <Grid item>
-                <Link href={`/product-react-ts/product/${id}`} underline="none">
+                <Link href={`/product/${id}`} underline="none">
                   <Typography sx={{ cursor: "pointer" }} variant="body2">
                     See Detail
                   </Typography>

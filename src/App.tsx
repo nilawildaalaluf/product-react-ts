@@ -22,7 +22,7 @@ function App() {
             }
           />
           <Route
-            path="/product-react-ts/product/:productId"
+            path="/product/:productId"
             element={
               <Provider store={store}>
                 <ProductDetail />
