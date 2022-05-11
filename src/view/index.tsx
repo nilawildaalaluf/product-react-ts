@@ -28,6 +28,7 @@ const ProductList = () => {
         console.log(err, "error");
       });
     dispatch(setProducts(response));
+    console.log(response, "response");
   };
   useEffect(() => {
     fectProducts();

@@ -14,7 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/"
+            path="/product-react-ts"
             element={
               <Provider store={store}>
                 <ProductList />
@@ -22,7 +22,7 @@ function App() {
             }
           />
           <Route
-            path="/product/:productId"
+            path="/product-react-ts/product/:productId"
             element={
               <Provider store={store}>
                 <ProductDetail />
