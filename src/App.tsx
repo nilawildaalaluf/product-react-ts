@@ -14,7 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/product-react-ts"
+            path="/"
             element={
               <Provider store={store}>
                 <ProductList />
