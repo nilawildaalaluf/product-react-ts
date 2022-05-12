@@ -22,7 +22,7 @@ function App() {
             }
           />
           <Route
-            path="/product/:productId"
+            path="https://nila-wilda-demo.netlify.app/product/:productId"
             element={
               <Provider store={store}>
                 <ProductDetail />
